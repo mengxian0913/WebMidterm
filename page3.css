@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#all{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    height: auto;
+    box-shadow:  0px 0px 10px 5px rgb(211, 210, 210);
+}
+
+#title-container{
+    max-width: 100%;
+    margin: 20px;
+    h1{
+        text-align: center;
+    }
+}
+
+#input-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-container input[type=text]{
+    width: 300px;
+    margin: 0;
+    margin-right: -10px;
+    height: 30px;
+}
+
+#input-container input[type=submit]{
+    background-color: aquamarine;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#input-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-container li{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 10px 0 10px;
+}
+
+#list-container li .fi-rr-edit{
+    margin-left: auto;
+}
+
+#list-container li .fi{
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#clear{
+    color: brown;
+    font-weight: 500;
+    margin-top: 50px;
+    cursor: pointer;
+}
